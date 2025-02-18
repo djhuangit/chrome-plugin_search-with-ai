@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Search with AI",
+  "version": "1.0",
+  "description": "Search selected text using ChatGPT or Claude.",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
